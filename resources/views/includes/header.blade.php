@@ -42,7 +42,21 @@ $headerMegaMenu = !empty($headerMegaMenu) ? $headerMegaMenu : '';
 
     <!-- begin header-nav -->
     <ul class="navbar-nav navbar-right">
-
+        <li >
+        <a href="#" data-toggle="dropdown" class="dropdown-toggle icon" aria-expanded="false">
+            <i class="material-icons">inbox</i>
+            <span class="label">5</span>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-right">
+            <li class="dropdown-header">Notificaciones</li>
+            <li><a href="#">Notificación 1</a></li>
+            <li><a href="#">Notificación 2</a></li>
+            <li><a href="#">Notificación 3</a></li>
+            <li><a href="#">Notificación 4</a></li>
+            <li><a href="#">Notificación 5</a></li>
+            <li class="dropdown-footer"><a href="#">Ver todas las notificaciones</a></li>
+        </ul>
+        </li>
             <li class="">
                 <a href="#" onclick="cambiar_gestion_periodo_header()" data-toggle="navbar-search" class="icon"> GESTIÓN:
                     @php
