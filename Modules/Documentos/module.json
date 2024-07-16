@@ -1,0 +1,11 @@
+{
+    "name": "Documentos",
+    "alias": "documentos",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Documentos\\Providers\\DocumentosServiceProvider"
+    ],
+    "files": []
+}

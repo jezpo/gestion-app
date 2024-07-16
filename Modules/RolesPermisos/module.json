@@ -1,0 +1,11 @@
+{
+    "name": "RolesPermisos",
+    "alias": "rolespermisos",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\RolesPermisos\\Providers\\RolesPermisosServiceProvider"
+    ],
+    "files": []
+}
