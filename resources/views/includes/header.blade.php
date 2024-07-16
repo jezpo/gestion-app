@@ -43,31 +43,10 @@ $headerMegaMenu = !empty($headerMegaMenu) ? $headerMegaMenu : '';
     <!-- begin header-nav -->
     <ul class="navbar-nav navbar-right">
 
-            <li>
-                <a href="" data-toggle="navbar-search" class="form-label">CARRERA:
-                    <select name="carreras" onchange="getListCar(this)" data-live-search="true"
-                        style="background: transparent; border: none; font-size: 13px; ">
-                        {{--@foreach (Session::get('group_car') as $row)
-                            @if (session('programa') === $row->programa)
-                                <option value="{{ $row->id_programa }}" selected>{{ $row->programa }}</option>
-                            @else
-                                <option value="{{ $row->id_programa }}">{{ $row->programa }}</option>
-                            @endif
-                        @endforeach--}}
-                    </select>
-                </a>
-            </li>
             <li class="">
                 <a href="#" onclick="cambiar_gestion_periodo_header()" data-toggle="navbar-search" class="icon"> GESTIÓN:
                     @php
                         echo session('id_gestion');
-                    @endphp
-                </a>
-            </li>
-            <li class="">
-                <a href="#" onclick="cambiar_gestion_periodo_header()" data-toggle="navbar-search" class="icon"> PERIODO:
-                    @php
-                        echo session('id_periodo');
                     @endphp
                 </a>
             </li>

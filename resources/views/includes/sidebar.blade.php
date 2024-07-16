@@ -15,9 +15,7 @@
 					</div>
 					<div class="info">
 						<b class="caret pull-right"></b>
-                        {{ Auth::user()->paterno }}
-                        {{ Auth::user()->materno }},
-                        {{ Auth::user()->nombres }}
+                        {{ Auth::user()->name }}
 						<small>{{ Auth::user()->ci }}</small>
 					</div>
 				</a>
